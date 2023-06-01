@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Minky Cycle-Home</title>
+	<link rel= "stylesheet" type="text/css" href="style.css">
+	 <script src="myscripts.js"></script> 
+</head>
+
+<!-- All content visible on the webpage will be inside the body tags below-->
+<body> 
+	<header>
+		
+		<nav> <!-- navigation menu -->
+			<div class="navbar">
+				<ul id="nav">
+					<a href="index.html">
+						<br>
+						<h3><img src="logo2.jpg" alt="Logo" height="100" width="100"></h3>
+						
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="regpay.html">Register and Pay</a></li>
+					<li><a href="faq.html">FaQ</a></li>
+					
+				</ul>
+			</div>
+
+		</nav>
+	</header>
+	<div id="container"></div>
+		<div id="text">
+	<div>
+		<br><br><h1> Register </h1> 
+		<h2> Registering gives you access to our latest news. </h2> 
+		<form id="subscribeform" name="subscribe">
+			<p> Name: </p>
+			<input type="text" name="name">
+			<p> Email: </p>
+			<input type="text" name="email">
+			<p> Password: </p>
+			<input type="password" name="password"> <br>
+			<p> Would you also like to be sent regular updates? <br>
+				You can opt out at any time. </p>
+				<input type="radio" name="newsletter" value="Yes" checked> Yes
+				<input type="radio" name="newsletter" value="No"> No <br>
+				<br>
+				<button type="button" onclick="subscribeSubmitted ('subscribe', 'name', 'email', 'password')"> Register now</button>
+			<br>
+		
+			<h1> Do you wanna pay now? </h1> 
+			<p> Amount you wish to pay ($): </p>
+		<input type="number" name="Amount"> <br>
+			<br>
+
+			<button type="button" onclick="subscribeSubmitted ('subscribe', 'name', 'email', 'password')"> Pay now</button>
+			<br><br><br><br>
+			
+		</form>
+	</div>
+	
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html> 
+
+
+

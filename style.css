@@ -1,0 +1,217 @@
+/* This is your CSS file. You will use this file to style your HTML pages */
+
+
+p, Li{
+    font-family: 'Roboto Slab', serif;
+}
+#container{
+    margin:30px;
+    height: 1330px;
+    width: 1200px;
+    background-color: white;
+    opacity: 5%;
+    position: absolute;
+    z-index: -2;
+}
+#text{
+    margin-left: 10%;
+    margin-right: 20%;
+    height: 1200px;
+    max-width: 1200px;
+    
+}
+
+/* Edit faq page */
+
+.faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container  {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.hr-line {
+  width: 60%;
+  margin: auto;
+}
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: #515050;
+    overflow: hidden;
+    opacity: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10px;
+
+  }
+
+ 
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .navbar li {
+    display: inline;
+    text-align: center;
+  }
+
+  /* Add a background img to a body */
+   body {
+    background-image: url("Bg1.jpeg");
+  }
+
+  /* Edit nav bar */
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+
+  nav{
+    width: 100%;
+    height: 60px;
+    background-color: #515050;
+    line-height: 50px;
+  }
+
+  /* Edit body text */
+  body {
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    opacity: 80%;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1, h2 {
+	text-shadow: 0px 0px 20px #000;
+}
+
+h3 {
+    float: left;
+}
+
+td {
+	
+	padding: 30px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+/* edit text box */
+input[type=text]{
+    width: 100%;
+color: rgb(36, 35, 42);
+font-size: 16px;
+line-height: 20px;
+min-height: 28px;
+border-radius: 4px;
+padding: 8px 16px;
+border: 2px solid transparent;
+box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+background: rgb(251, 251, 251);
+transition: all 0.1s ease 0s;
+}
+
+input[type=text]{
+    border: 2px solid rgb(124, 138, 255);
+}
+
+input[type=password]{
+    width: 100%;
+color: rgb(36, 35, 42);
+font-size: 16px;
+line-height: 20px;
+min-height: 28px;
+border-radius: 4px;
+padding: 8px 16px;
+border: 2px solid transparent;
+box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+background: rgb(251, 251, 251);
+transition: all 0.1s ease 0s;
+}
+
+input[type=password]{
+    border: 2px solid rgb(124, 138, 255);
+}
+
+
+input[type=number]{
+    width: 100%;
+color: rgb(36, 35, 42);
+font-size: 16px;
+line-height: 20px;
+min-height: 28px;
+border-radius: 4px;
+padding: 8px 16px;
+border: 2px solid transparent;
+box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+background: rgb(251, 251, 251);
+transition: all 0.1s ease 0s;
+}
+
+input[type=number]{
+    border: 2px solid rgb(124, 138, 255);
+}
+
+/* Edit button */
+button[type=button]{
+border: 0;
+outline: 0;
+cursor: pointer;
+color: rgb(60, 66, 87);
+background-color: rgb(255, 255, 255);
+box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+border-radius: 4px;
+font-size: 14px;
+font-weight: 500;
+padding: 4px 8px;
+display: inline-block;
+min-height: 28px;
+transition: background-color .24s, box-shadow .24s;}
+
+/* Edit button effec */
+button:hover {
+    box-shadow: 2px 2px;
+
+  }
+
+
